@@ -1,0 +1,113 @@
+<body>
+  <div class="page-wrapper chiller-theme" id="nav">
+    <a id="show-sidebar" class="btn btn-sm btn-dark">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar" class="sidebar-wrapper">
+      <div class="sidebar-content">
+        <div class="sidebar-brand">
+          <a href="#">Menu</a>
+          <div id="close-sidebar">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="sidebar-header">
+          <div class="user-pic">
+            <img class="img-responsive img-rounded" src="https://www.shareicon.net/data/512x512/2016/08/18/810292_user_512x512.png"
+              alt="User picture">
+          </div>
+          <div class="user-info">
+            <span class="user-name">
+              <strong>Simone Fernandes</strong>
+            </span>
+            <span class="user-role">Admin</span>
+            <span class="user-status">
+              <i class="fa fa-circle"></i>
+              <span>Online</span>
+            </span>
+          </div>
+        </div>
+        <!-- sidebar-header  -->
+        <div class="sidebar-search">
+          <div>
+            <div class="input-group">
+              <input type="text" class="form-control search-menu" placeholder="Search in my universe...">
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sidebar-search  -->
+        <div class="sidebar-menu">
+          <ul>
+            <li class="header-menu">
+              <span>General</span>
+            </li>
+            <li class="sidebar-dropdown">
+              <a>
+                <i class="fas fa-book"></i>
+                <span style="cursor:pointer;">Portfolio</span>
+                <span class="badge badge-pill badge-warning">New</span>
+              </a>
+              <div class="sidebar-submenu">
+                <ul>
+                  <li>
+                    <a style ="cursor: pointer;" href="https://simonify.000webhostapp.com/" target="_blank">A Spotify clone
+                      <span class="badge badge-pill badge-success">Pro</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://calculadora-angular.netlify.com/" target="_blank">Angular calculator</a>
+                  </li>
+                  <li>
+                    <a href="https://my-chuck-norris-generator.netlify.com/" target="_blank">Chuck Norris joke generator</a>
+                  </li>
+
+                  <li>
+                    <a href="https://electron-angular-timer.netlify.com/" target="_blank">Timer with Angular and Electron</a>
+                  </li>
+                  <li>
+                    <a href="https://myweatherapi.netlify.com/" target="_blank">Weather API with Angular</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="sidebar-dropdown">
+              <a>
+                <i class="fas fa-user"></i>
+                <span style ="cursor: pointer;">About me</span>
+                <span class="badge badge-pill badge-danger">3</span>
+              </a>
+              <div class="sidebar-submenu">
+                <ul>
+                  <li>
+                    <a routerLink="aboutme" style ="cursor: pointer;">A short story
+                   </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="sidebar-dropdown">
+              <a>
+                <i class="fas fa-address-card"></i>
+                <span style ="cursor: pointer;">Contacts</span>
+              </a>
+              <div class="sidebar-submenu">
+                <ul>
+                  <li>
+                    <a routerLink="email" style ="cursor: pointer;">Social info</a>
+                  </li>
+                  </ul>
+              </div>
+            </li>
+            <router-outlet></router-outlet>
+
+
+
+  <!-- page-wrapper -->
+
+
